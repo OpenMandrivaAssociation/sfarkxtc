@@ -1,3 +1,5 @@
+%define gitcmmt 4ed577d
+
 Name:		sfarkxtc
 Version:	3.0
 Release:	2
@@ -13,7 +15,7 @@ BuildRequires:	sfarklib-devel
 Command line tool for decompressing sfArk sound fonts
 
 %prep
-%setup -qn %{name}-master
+%setup -qn raboof-%{name}-%{gitcmmt}
 
 %build
 %{__cc} %{optflags} -o %{name} %{name}.cpp -lz -lsfark
