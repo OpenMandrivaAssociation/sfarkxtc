@@ -1,8 +1,8 @@
 %define gitcmmt 4ed577d
 
 Name:		sfarkxtc
-Version:	3.0
-Release:	3
+Version:	20150617
+Release:	1
 Summary:	Command line tool for decompressing sfArk sound fonts
 License:	GPLv3
 Group:		System/Libraries
